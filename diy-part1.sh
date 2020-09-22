@@ -16,3 +16,5 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
+curl -O https://patch-diff.githubusercontent.com/raw/coolsnowwolf/lede/pull/5449.patch
+git apply 5449.patch
