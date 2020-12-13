@@ -37,6 +37,8 @@ Build OpenWrt using GitHub Actions
 - [softprops/action-gh-release](https://github.com/softprops/action-gh-release)
 - [c-hive/gha-remove-artifacts](https://github.com/c-hive/gha-remove-artifacts)
 - [dev-drprasad/delete-older-releases](https://github.com/dev-drprasad/delete-older-releases)
+- [HelloWorld by jerrykuku](https://github.com/jerrykuku/luci-app-vssr)
+- [Argon theme by jerrykuku](https://github.com/jerrykuku/luci-theme-argon)
 
 ## License
 
