@@ -17,6 +17,6 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone -b lede https://github.com/pymumu/luci-app-smartdns package/lean/luci-app-smartdns
 rm -rf package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-app-argon-config package/lean/luci-app-argon-config
+rm -rf package/lean/luci-app-argon-config && git clone https://github.com/jerrykuku/luci-app-argon-config package/lean/luci-app-argon-config
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
